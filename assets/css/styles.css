@@ -1,5 +1,294 @@
 /* styles.css */
 
 * {
-	font-family: Arial;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    line-height: 1.4;
+}
+
+body.homepage {
+    background-color: #58844F;
+    color: white;
+}
+
+.scene {
+    max-width: 900px;
+    margin: 25px auto; 
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 1;
+    margin: 5px;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.dialogue {
+    text-align: center;
+    font-size: 22px;
+}
+
+.inner-dialogue {
+    font-size: 28px;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+.choices {
+    position: relative;
+    min-height: 55px;
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.work-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.choices a.work-link,
+.choices a.work-link:link {
+    color: #EFE301;
+}
+
+.escape-link {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.choices a.escape-link,
+.choices a.escape-link:link {
+    color: #B01ECD;
+}
+
+.scene img {
+display: block;
+width: 100%;
+max-width: 900px;
+margin: 10px auto 30px auto;
+border-radius: 20px;
+}
+
+body.work-page {
+    background-color: #475142;
+    color: white;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-choice {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+body.sleep-ending {
+    background-color: #ABE8D7;
+    color: #217C5B;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sleep-dialogue {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.black-title {
+   color: black;
+}
+
+.hallway-choice {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+    color: black;
+}
+
+body.running-away {
+    background-color: #0E4860;
+    color: white;
+    font-size: 22px;
+    font-family: Long Cang;
+}
+
+.running-dialogue {
+    font-size: 28px;
+    font-family: "Long Cang", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body.back-to-class {
+    background-color: #673C3C;
+    color: white;
+    font-family: "Jacques Francois", serif;
+}
+
+.back-to-dialogue {
+    font-size: 26px;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.back-to-choices {
+    position: relative;
+    min-height: 25px;
+    margin: 10px 0;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.back-to-choices a.work-option,
+.back-to-choices a.work-option:link {
+    color: #BF1E1E;
+}
+
+.h1-back {
+margin-bottom: 35px;
+
+}
+
+.back-to-choices {
+    position: relative;
+    min-height: 25px;
+    margin: 10px 0;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+
+.back-to-choices a.work-option,
+.back-to-choices a.work-option:link {
+    color: #BF1E1E;
+}
+
+.do-choices {
+    position: relative;
+    min-height: 25px;
+    margin: 10px 0;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.do-choices a.doing-the-work,
+.do-choices a.doing-the-work:link {
+    color: #41D3C5;
+}
+
+.do-the-dialogue {
+    font-size: 28px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+body.hall-page {
+    background-color: #898989;
+    color: white;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.work-ending-h1 {
+    margin-bottom: 50px;
+}
+
+body.work-ending {
+    background-color: #D0D291;
+    color: #333;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.exit-word {
+    color: #FF0000;
+    font-weight: bold;
+    font-family: "Jacques Francois", serif;
+}
+
+.ending-dialogue {
+    font-size: 28px;
+    text-align: center;
+    line-height: 0.7;
+    font-family: "Jacques Francois", serif;
+}
+
+.ending-dialogue-1 {
+    margin-top: 80px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 0.7;
+    font-family: "Jacques Francois", serif;
+}
+
+.final-ending-dialogue {
+    margin-top: 80px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 0.7;
+    font-family: "Jacques Francois", serif;
+    color: #20B42A;
+}
+
+.running-away-choices {
+    position: relative;
+    min-height: 25px;
+    margin: 10px 0;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: "Jacques Francois", serif;
+}
+
+
+.running-away-choices a.giving-up-link,
+.running-away-choices a.giving-up-link:link {
+    color: #B68A8A;
+    font-family: "Jacques Francois", serif;
+}
+
+.giving-up-link {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.running-away-choices a.back-to-class-link,
+.running-away-choices a.back-to-class-link:link {
+    color: #EFE301;
+    font-family: "Jacques Francois", serif;
+}
+
+.back-to-class-link {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
