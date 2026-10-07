@@ -298,16 +298,14 @@ body.the-start {
     color: #333;
     font-family: "Jacques Francois", serif;
     font-weight: 400;
-    font-style: normal;
+    line-height: 20px;
 }
 
 .option-for-start {
-    position: relative;
-    min-height: 25px;
     margin: 10px 0;
     font-size: 36px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 10px;
     font-family: "Jacques Francois", serif;
 }
 
