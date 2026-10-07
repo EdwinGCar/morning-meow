@@ -292,3 +292,27 @@ body.work-ending {
     right: 0;
     top: 0;
 }
+
+body.the-start {
+    background-color: #FFB6B6;
+    color: #333;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.option-for-start {
+    position: relative;
+    min-height: 25px;
+    margin: 10px 0;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 70px;
+    font-family: "Jacques Francois", serif;
+}
+
+.start-link {
+    color: #41D3C5;
+    font-family: "Jacques Francois", serif;
+}
+
